@@ -1,0 +1,28 @@
+.racetrack {
+  background-image: url('../images/raceTrack.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 6px;
+  box-shadow: 0 6px 20px;
+  height: 323px;
+  margin: 50px auto;
+  position: relative;
+  width: 1100px;
+
+  &__car {
+    height: 43px;
+    position: absolute;
+    transition: all 0.1s;
+    width: 93px;
+  }
+}
+
+#redCar {
+  left: 8px;
+  top: 96px;
+}
+
+#blueCar {
+  left: 8px;
+  top: 178px;
+}
